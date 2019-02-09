@@ -1,0 +1,20 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+      //Convert a given number of pounds to kilos
+      //1.Create a variable to store number of pounds
+
+      double pounds =10;
+
+      //2.Calculate the number of kilograms for the number and store in a variable.
+
+      double convertKilos= pounds * 0.45367;
+
+      //3.Print out the results
+
+        System.out.println("10 pounds are= " + convertKilos);
+
+    }
+}
